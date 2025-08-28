@@ -13,13 +13,13 @@ struct Tcarro{
 int fun_decre();
 int fun_incre();
 void flush_in ();
-float calcValor (float preco, float qtd);
-int fun_invalidos (float prEta, float prGas, float prAdit, float tFila);
+float calcValor(float preco, float qtd);
+int fun_invalidos(float prEta, float prGas, float prAdit, float tFila);
 int fun_escreva();
 char Fun_Tcar();
 
 //MAIN
-int main (void) {
+int main (void){
 
   //VARIÁVEIS
 	float  prEta = 1, prGas = 1, prAdit = 1, qtdEta, qtdGas, qtdAdit, valRec, cAtendido, tFila = 1;
@@ -48,7 +48,7 @@ int main (void) {
   }
   while (prEta < 0 || prGas < 0 || prAdit < 0 || tFila <= 0);
 
-  struct Tcarro carros [tam];
+  struct Tcarro carros[tam];
   do {
 
   menu = fun_escreva ();
