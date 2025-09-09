@@ -27,7 +27,7 @@ int main (void){
   int fila = 0, opcao, relatorio, menu, tam, cont = 1;
 
   printf("---------------------------------------------------------------------------------------------------------\n");
-  printf("Bem vindo ao programa de abastecimento do posto de gasolina! Nosso programa facilita o abastecimento para nossos clientes.\n\n                     \n");
+  printf("Bem vindo ao programa de abastecimento do posto de gasolina! Nosso programa facilita o abastecimento para nossos clientes.\n\n\n");
   printf("---------------------------------------------------------------------------------------------------------\n");
   
   do {
