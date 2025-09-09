@@ -4,8 +4,8 @@
 
 //Struct para os carros
 struct Tcarro{
-  char modelo[30] ;
-  char placa[30] ;
+  char modelo[30];
+  char placa[30];
   char cor[30];
 };
 
