@@ -4,21 +4,21 @@
 
 //Struct para os carros
 struct Tcarro{
-  char modelo[30] ;
-  char placa[30] ;
+  char modelo[30];
+  char placa[30];
   char cor[30];
 };
 
 //Funções
 int fun_decre();
 int fun_incre();
-void flush_in();  // Houve uma alteração
+void flush_in();  
 float calcValor(float preco, float qtd);
 int fun_invalidos(float prEta, float prGas, float prAdit, float tFila);
 int fun_escreva();
 char Fun_Tcar();
 
-//MAIN
+
 int main (void){
 
   //VARIÁVEIS
@@ -169,7 +169,7 @@ float calcValor (float preco, float qtd) {
 	return preco*qtd;
 }
 
-int fun_invalidos (float prEta, float prGas, float prAdit, float tFila) {
+int funInvalidos (float prEta, float prGas, float prAdit, float tFila) {
   if (prEta < 0) 
      printf("\nValor do preço do Etanol inválido!\nDigite o preço novamente\n");
   if (prGas < 0) 
